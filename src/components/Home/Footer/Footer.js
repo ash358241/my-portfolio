@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCoffee } from '@fortawesome/free-solid-svg-icons'
+import './Footer.css';
 import {
     faLinkedinIn,
     faFacebook,
@@ -9,18 +9,24 @@ import {
   } from "@fortawesome/free-brands-svg-icons";
 import { Link } from 'react-router-dom';
 
+const linkedInURL = "linkedin.com/in/ashraful-islam-5332201a4/";
+const gitHub = "github.com/ash358241";
+const faceBook = "facebook.com/profile.php?id=100007891147242";
+const instaGram = "instagram.com/ashrafunique/";
+
+// const linkedInURL = 'linkedin.com/in/ashabhussan';
 
 
 const Footer = () => {
     return (
-        <div className="text-center">
+        <div className="text-center footer">
             <h5>Copyright © 2021 | ashraful</h5>
             <p>Address: Moulvibazaar, Sylhet, Bangladesh</p>
             <div className="socialLinks">
-            <a href='//https://www.linkedin.com/in/ashraful-islam-5332201a4/'><FontAwesomeIcon style={{margin: '10px'}} icon = { faLinkedinIn } size='2x'/></a>
-            <Link to='//https://github.com/ash358241'><FontAwesomeIcon style={{margin: '10px'}} icon = { faGithub } size='2x'/></Link>
-            <FontAwesomeIcon style={{margin: '10px'}} icon = { faFacebook } size='2x'/>
-            <FontAwesomeIcon style={{margin: '10px'}} icon = { faInstagram } size='2x'/>
+            <Link target='_blank' to={"//" + linkedInURL}><FontAwesomeIcon style={{margin: '10px'}} icon = { faLinkedinIn } size='2x'/></Link>
+            <Link target='_blank' to={"//" + gitHub} > <FontAwesomeIcon className='m-2 icon' icon={faGithub} size='2x'/></Link>
+            <Link target='_blank' to={"//" + faceBook} > <FontAwesomeIcon className='m-2 icon' icon={faFacebook} size='2x'/></Link>
+            <Link target='_blank' to={"//" + instaGram} > <FontAwesomeIcon className='m-2 icon' icon={faInstagram} size='2x'/></Link>
             </div>
         </div>
     );

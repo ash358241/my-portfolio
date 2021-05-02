@@ -17,14 +17,15 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     place-items: center;
+    grid-gap: 3em;
 }
 
 .typewriter{
-    overflow: hidden; /* Ensures the content is not revealed until the animation */
-    border-right: .15em solid orange; /* The typwriter cursor */
-    white-space: nowrap; /* Keeps the content on a single line */
-    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-    letter-spacing: .15em; /* Adjust as needed */
+    overflow: hidden; 
+    border-right: .15em solid orange; 
+    white-space: nowrap; 
+    margin: 0 auto; 
+    letter-spacing: .15em; 
     animation: 
       typing 3.5s steps(40, end),
       blink-caret .75s step-end infinite;
@@ -54,8 +55,6 @@
     .bannerChild{
         position: absolute;
         top: 60%;
-        /* left: 50%; */
-        /* transform: translate(-50%, -50%); */
     }
 
     .content {
@@ -78,8 +77,6 @@
     .bannerChild{
         position: absolute;
         top: 60%;
-        /* left: 50%; */
-        /* transform: translate(-50%, -50%); */
     }
 
     .content {

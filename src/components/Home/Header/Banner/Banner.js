@@ -1,7 +1,10 @@
 import React from 'react';
 import Particles from 'react-tsparticles';
 import './Banner.css';
-import profileImage from '../../../../20181216_190708.jpg';
+import profileImage from '../../../../img/profile.jpg';
+import { Link } from 'react-router-dom';
+
+const resume = "drive.google.com/file/d/1FmMTnd23sg34II8LAJuNaUMWI-hBg6_G/view";
 
 const Banner = () => {
     return (
@@ -11,7 +14,7 @@ const Banner = () => {
         options={{
           background: {
             color: {
-              value: "#000000",
+              value: "#232741",
             },
           },
           fpsLimit: 120,
@@ -95,9 +98,10 @@ const Banner = () => {
         <h1>Hi, I am <span style={{color: 'aqua'}}>Ashraful <br/>Islam </span> </h1>
         <h3 className="typewriter">MERN Stack Developer</h3>
         <p>I am an enthusiastic Javascript Developer. I work with MERN stack. I handle both the Front-End and Back-End with significant and highly demandable frameworks.</p>
+        <Link target="_blank" to={"//" + resume}><button className="btn btn-info px-3 py-2">Get Resume</button></Link>
         </div>
         <div className="profileImage">
-        <img style={{width: '80%', height: '44vh', marginLeft: '50px', borderRadius: '20px'}} src={profileImage} alt=""/>
+        <img style={{width: '100%',   borderRadius: '20px'}} src={profileImage} alt=""/>
         </div>
         </div>
       </div>

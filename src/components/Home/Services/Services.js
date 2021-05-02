@@ -7,10 +7,10 @@ import './Services.css';
 
 const Services = () => {
     return (
-        <div className="my-5">
+        <div className="my-5 py-5">
             <div className="text-center">
-            <h1>For You I Provide</h1>
-            <hr style={{width: '50%', margin: '0 auto'}}/>
+            <h1 className="text-white">Service I Provide</h1>
+            <hr style={{width: '50%', margin: '0 auto', backgroundColor: 'white', height: '5px'}}/>
             </div>
             <br/>
             <div className='row w-100 mx-auto container'>

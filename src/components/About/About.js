@@ -1,5 +1,6 @@
 import React from 'react';
-import me from '../../20181216_190708.jpg';
+import me from '../../img/profile.jpg';
+import './About.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
     faLinkedinIn,
@@ -8,19 +9,95 @@ import {
     faInstagram,
   } from "@fortawesome/free-brands-svg-icons";
 import { Link } from 'react-router-dom';
+import { Badge } from 'react-bootstrap';
+
+const linkedInURL = "linkedin.com/in/ashraful-islam-5332201a4/";
+const gitHub = "github.com/ash358241";
+const faceBook = "facebook.com/profile.php?id=100007891147242";
+const instaGram = "instagram.com/ashrafunique/";
 
 const About = () => {
     return (
-        <div className="text-center w-50 mx-auto" style={{marginTop:'100px'}}>
+        <div id="aboutMe" >
+            <div className="text-center w-50 mx-auto" style={{paddingTop:'100px'}}>
             <img style={{width: '50%', borderRadius: '20px'}} src={me} alt=""/>
             <h1>I'm Ashraful Islam</h1>
             <p style={{width: '80%', margin: '0 auto'}}>I basically work with MERN stack. For Front-End I use React, for Back-End I use Express and as database I use MongoDB. I always focus on learning new technology. Currently I am doing my B.Sc. in CSE from Leading University, Sylhet</p>
             <div className="socialLinks">
-            <a href='//https://www.linkedin.com/in/ashraful-islam-5332201a4/'><FontAwesomeIcon style={{margin: '10px'}} icon = { faLinkedinIn } size='2x'/></a>
-            <Link to='//https://github.com/ash358241'><FontAwesomeIcon style={{margin: '10px'}} icon = { faGithub } size='2x'/></Link>
-            <FontAwesomeIcon style={{margin: '10px'}} icon = { faFacebook } size='2x'/>
-            <FontAwesomeIcon style={{margin: '10px'}} icon = { faInstagram } size='2x'/>
+            <Link target='_blank' to={"//" + linkedInURL}><FontAwesomeIcon style={{margin: '10px'}} icon = { faLinkedinIn } size='2x'/></Link>
+            <Link target='_blank' to={"//" + gitHub} > <FontAwesomeIcon className='m-2 icon' icon={faGithub} size='2x'/></Link>
+            <Link target='_blank' to={"//" + faceBook} > <FontAwesomeIcon className='m-2 icon' icon={faFacebook} size='2x'/></Link>
+            <Link target='_blank' to={"//" + instaGram} > <FontAwesomeIcon className='m-2 icon' icon={faInstagram} size='2x'/></Link>
             </div>
+            </div>
+
+            <br/>
+
+            <div className="row">
+                <div className="col-md-6 skills">
+                    <h2 className='text-center orelega-font'>Skills</h2>
+
+                    <div className="ml-5 mb-5">
+                        <h4 className='mb-3 orelega-font'>Comfortable</h4>
+                        <Badge variant="info m-2">Javascript</Badge>
+                        <Badge variant="info m-2">ES6</Badge>
+                        <Badge variant="info m-2">React.js</Badge>
+                        <Badge variant="info m-2">React Router</Badge>
+                        <Badge variant="info m-2">Bootstrap</Badge>
+                        <Badge variant="info m-2">Node.js</Badge>
+                        <Badge variant="info m-2">Express.js</Badge>
+                        <Badge variant="info m-2">MongoDB</Badge>
+                        <Badge variant="info m-2">HTML5</Badge>
+                        <Badge variant="info m-2">CSS3</Badge>
+                        <Badge variant="info m-2">C</Badge>
+                        <Badge variant="info  m-2">C++</Badge>
+
+                        <h4 className='mt-5 mb-3 orelega-font'>Familiar</h4>
+                        <Badge variant="info  m-2">Typescript</Badge>
+                        <Badge variant="info  m-2">Sass</Badge>
+                        <Badge variant="info  m-2">Redux</Badge>
+                        <Badge variant="info  m-2">React Native</Badge>
+                        <Badge variant="info  m-2">Python</Badge>
+
+                        <h4 className='mt-5 mb-3 orelega-font'>Tools</h4>
+                        <Badge variant="info  m-2">Git</Badge>
+                        <Badge variant="info  m-2">Linux</Badge>
+                        <Badge variant="info  m-2">VS Code</Badge>
+                        <Badge variant="info  m-2">Chrome Deb Tool</Badge>
+                        <Badge variant="info  m-2">Heroku</Badge>
+                        <Badge variant="info  m-2">Netlify</Badge>
+                        <Badge variant="info  m-2"> Firebase</Badge>
+
+                    </div>
+
+                </div>
+
+                <div className="col-md-6">
+                    <h2 className='text-center orelega-font'>Education</h2>
+                    <div className="ml-5 mb-5">
+                        <h4 className='mb-3 orelega-font'>Under Graduation</h4>
+                        <h5 className='ml-4'>Leading University</h5>
+                        <h6 className='ml-4' >B.Sc. (Honours) in Computer Science & Engineering <br />
+                        January 2019 - Present <br />
+                        </h6>
+
+                        <h4 className=' mt-5 mb-3 orelega-font'>Higher Secondary</h4>
+                        <h5 className='ml-4'>Moulvibazar Government Collage</h5>
+                        <h6 className='ml-4' >HSC <br />
+                        </h6>
+
+                        <h4 className=' mt-5 mb-3 orelega-font'>Secondary</h4>
+                        <h5 className='ml-4'>Moulvibazar Government High School</h5>
+                        <h6 className='ml-4' >SSC <br />
+                        </h6>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
         </div>
     );
 };

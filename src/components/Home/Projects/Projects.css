@@ -2,6 +2,16 @@
     display: flex;
     align-items: center;
     justify-content:space-between;
+    border: 5px solid cyan;
+    background-color: white;
+    color: black;
+    margin: 30px 0;
+    padding: 30px;
+    transition: all .2s ease;
+}
+
+.carouselDes:hover{
+    box-shadow: 0 0 20px cyan;
 }
 
 
