@@ -1,0 +1,13 @@
+.carouselDes{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+
+@media(max-width: 668px){
+    .carouselDes{
+        flex-wrap: wrap;
+    }
+    
+}

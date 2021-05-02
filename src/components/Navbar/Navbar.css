@@ -1,0 +1,17 @@
+.navbarStyle{
+    background-image: linear-gradient(315deg, #000046, #1CB5E0);
+
+}
+
+.nav-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #fff;
+    transition: width .3s;
+  }
+
+  .nav-link:hover::after {
+    width: 100%;
+  }
