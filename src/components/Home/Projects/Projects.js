@@ -1,16 +1,20 @@
 import React from 'react';
-import { Carousel } from 'react-bootstrap';
+import { Badge, Carousel } from 'react-bootstrap';
 import tripperHome from '../../../img/triH.png';
 import tripperService from '../../../img/triS.png';
 import tripperFooter from '../../../img/triF.png';
 import bookHome from '../../../img/bh.png';
 import bookOrder from '../../../img/bo.png';
 import bookDetail from '../../../img/bd.png';
+
+import soccerHome from '../../../img/sh.png';
+import soccerCard from '../../../img/sc.png';
+import soccerDetail from '../../../img/sd.png';
 import './Projects.css';
 
 const Projects = () => {
     return (
-        <div className="w-100 mx-auto container text-white" style={{paddingBottom: '70px'}}>
+        <div className="w-100 mx-auto container text-white pt-5" style={{paddingBottom: '70px'}}>
             <h1 className="text-center ">Some Projects of Mine</h1>
             <hr style={{width: '50%', margin: '0 auto', backgroundColor: 'white', height: '5px'}}/>
             <br/>
@@ -52,9 +56,14 @@ const Projects = () => {
                 • Stripe Payment Method is integrated</p>
                 <p>
                 Technologies: <br/>
-                React.js, React Router, Firebase Authentication, Node.js,
-                Express.js, MongoDB, React-Bootstrap, Stripe Payment
-                Gateway
+                <Badge variant='info m-2'>React.js</Badge>
+                <Badge variant='info m-2'>React Router</Badge>
+                <Badge variant='info m-2'>Firebase Authentication</Badge>
+                <Badge variant='info m-2'>Node.js</Badge>
+                <Badge variant='info m-2'>Express.js</Badge>
+                <Badge variant='info m-2'>MongoDB</Badge>
+                <Badge variant='info m-2'>React Bootstrap</Badge>
+                <Badge variant='info m-2'>Stripe Payment Gateway</Badge>
                 </p>
             </div>
             </div>
@@ -96,11 +105,67 @@ const Projects = () => {
                 • Implemented User Specific Feature and User-Specific Order History</p>
                 <p>
                 Technologies: <br/>
-                React.js, React Router, Firebase Authentication, Node.js, Express.js,
-                MongoDB, React-Bootstrap
+                <Badge variant='info m-2'>React.js</Badge>
+                <Badge variant='info m-2'>React Router</Badge>
+                <Badge variant='info m-2'>Firebase Authentication</Badge>
+                <Badge variant='info m-2'>Node.js</Badge>
+                <Badge variant='info m-2'>Express.js</Badge>
+                <Badge variant='info m-2'>MongoDB</Badge>
+                <Badge variant='info m-2'>React Bootstrap</Badge>
                 </p>
             </div>
+
             </div>
+
+
+
+            <div className="carouselDes">
+            <div className="w-100 mx-auto">
+            
+            <Carousel style={{width: '100%', border: '3px solid navy'}}>
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src={soccerHome}
+                alt="First slide"
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src={soccerCard}
+                alt="Second slide"
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src={soccerDetail}
+                alt="Third slide"
+              />
+            </Carousel.Item>
+          </Carousel>
+
+            </div>
+            <div className='description ml-5 w-75'>
+                <h1>Soccer Mania</h1>
+                <h3>The site is about exploring details about teams which are playing in the league.</h3>
+                <a href="https://pensive-feynman-ecf848.netlify.app/">Live-Link</a>
+                <p>Features: <br/>
+                • Here You can find various teams with their logos <br/>
+                • You can explore respective team details</p>
+                <p>
+                Technologies: <br/>
+                <Badge variant='info m-2'>React.js</Badge>
+                <Badge variant='info m-2'>React Router</Badge>
+                <Badge variant='info m-2'>FontAwesome</Badge>
+                <Badge variant='info m-2'>React Bootstrap</Badge>
+                </p>
+            </div>
+            
+            </div>
+
+
         </div>
     );
 };

@@ -9,3 +9,14 @@
     transform: scale(1.05);
     border: 2px solid cyan;
 }
+
+
+
+
+@media(max-width: 668px){
+    .services{
+        padding-top: 200px;
+        /* padding-bottom: 200px; */
+    }
+    
+}

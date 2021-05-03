@@ -1,6 +1,38 @@
-.formContainer{
-    /* position:relative; */
-	/* background: yellow; */
+
+.contact{
+    background-image: #232741;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    z-index: 1;
+	height: 100vh;
+}
+.contact::before{
+    position: absolute;
+    content: "";
+    top:0;
+    width: 100%;
+    height: 100%;
+    background: #232741;
+    z-index: -1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #form{
+	background: yellow;
+	position: relative;
 }
 
 .form-holder {
@@ -11,7 +43,6 @@
 	width: 100%;
 	max-width: 400px;
 	padding: 30px;
-	/* background: rgba(220,220,220, .5); */
     background: black;
 	border-radius: 15px;
 	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 2px 2px 0 rgba(0, 0, 0, 0.1);
@@ -20,7 +51,6 @@
 .form-holder input {
 	display: block;
 	width: 100%;
-	/* background: rgba(240,240,240, .5); */
     background: #ffffff;
 	border: none;
 	font-size: 16px;
@@ -33,7 +63,6 @@
 }
 
 .form-holder textarea {
-    /* background: rgba(240,240,240, .5); */
     background: #ffffff;
     padding: 15px;
     border: none;
@@ -59,4 +88,4 @@
 
 .form-holder button:hover {
 	opacity: .8;
-}
+}  */

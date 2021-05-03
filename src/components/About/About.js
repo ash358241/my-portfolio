@@ -43,7 +43,7 @@ const About = () => {
                         <Badge variant="info m-2">ES6</Badge>
                         <Badge variant="info m-2">React.js</Badge>
                         <Badge variant="info m-2">React Router</Badge>
-                        <Badge variant="info m-2">Bootstrap</Badge>
+                        <Badge variant="info m-2">Bootstrap5</Badge>
                         <Badge variant="info m-2">Node.js</Badge>
                         <Badge variant="info m-2">Express.js</Badge>
                         <Badge variant="info m-2">MongoDB</Badge>
@@ -61,9 +61,9 @@ const About = () => {
 
                         <h4 className='mt-5 mb-3 orelega-font'>Tools</h4>
                         <Badge variant="info  m-2">Git</Badge>
-                        <Badge variant="info  m-2">Linux</Badge>
+                        <Badge variant="info  m-2">Windows</Badge>
                         <Badge variant="info  m-2">VS Code</Badge>
-                        <Badge variant="info  m-2">Chrome Deb Tool</Badge>
+                        <Badge variant="info  m-2">Chrome Dev Tool</Badge>
                         <Badge variant="info  m-2">Heroku</Badge>
                         <Badge variant="info  m-2">Netlify</Badge>
                         <Badge variant="info  m-2"> Firebase</Badge>
@@ -84,11 +84,13 @@ const About = () => {
                         <h4 className=' mt-5 mb-3 orelega-font'>Higher Secondary</h4>
                         <h5 className='ml-4'>Moulvibazar Government Collage</h5>
                         <h6 className='ml-4' >HSC <br />
+                        Batch: 2018
                         </h6>
 
                         <h4 className=' mt-5 mb-3 orelega-font'>Secondary</h4>
                         <h5 className='ml-4'>Moulvibazar Government High School</h5>
                         <h6 className='ml-4' >SSC <br />
+                        Batch: 2016
                         </h6>
                     </div>
                 </div>

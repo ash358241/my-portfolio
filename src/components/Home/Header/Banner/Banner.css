@@ -10,14 +10,14 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -45%);
 }
 
 .content{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     place-items: center;
-    grid-gap: 3em;
+    grid-gap: 50px;
 }
 
 .typewriter{
