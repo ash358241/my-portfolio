@@ -50,7 +50,7 @@ const Projects = () => {
             <div className='description ml-5 w-75'>
                 <h1>Tripper</h1>
                 <h3>This site is about to manage travel for you according to your need.</h3>
-                <a href="https://tripper-285e0.web.app/">Live-Link</a>
+                <a href="https://tripper-285e0.web.app/" target='_blank'>Live-Link</a>
                 <p>Features: <br/>
                 • Implemented Admin Panel and User Dashboard <br/>
                 • Stripe Payment Method is integrated</p>
@@ -99,7 +99,7 @@ const Projects = () => {
             <div className='description ml-5 w-75'>
                 <h1>Book Store</h1>
                 <h3>This site is for you to select the book you desire. Grab your book and enrich your knowledge.</h3>
-                <a href="https://book-store-38cb3.web.app/">Live-Link</a>
+                <a href="https://book-store-38cb3.web.app/" target='_blank'>Live-Link</a>
                 <p>Features: <br/>
                 • Implemented Admins Features such as Managing/Adding/Removing Books <br/>
                 • Implemented User Specific Feature and User-Specific Order History</p>
@@ -150,7 +150,7 @@ const Projects = () => {
             <div className='description ml-5 w-75'>
                 <h1>Soccer Mania</h1>
                 <h3>The site is about exploring details about teams which are playing in the league.</h3>
-                <a href="https://pensive-feynman-ecf848.netlify.app/">Live-Link</a>
+                <a href="https://pensive-feynman-ecf848.netlify.app/" target='_blank'>Live-Link</a>
                 <p>Features: <br/>
                 • Here You can find various teams with their logos <br/>
                 • You can explore respective team details</p>

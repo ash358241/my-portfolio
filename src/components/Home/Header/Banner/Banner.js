@@ -97,13 +97,13 @@ const Banner = () => {
           
         <div className="content">
         <div className="info text-white">
-        <h1>Hi, I am <span style={{color: 'aqua'}}>Ashraful <br/>Islam </span> </h1>
-        <h3 className="typewriter">MERN Stack Developer</h3>
+        <h1>Hi, I am <span style={{color: '#FFFAF0', fontWeight: '700'}}>Ashraful <br/>Islam </span> </h1>
+        <p className="typewriter"><span style={{color: 'cyan',fontSize:'2.3em', fontWeight:'700'}}>MERN Stack Developer</span></p>
         <p>I am an enthusiastic Javascript Developer. I work with MERN stack. I handle both the Front-End and Back-End with significant and highly demandable frameworks.</p>
         <Link target="_blank" to={"//" + resume}><button className="btn btn-info px-3 py-2"><FontAwesomeIcon icon = { faDownload } /> Get Resume</button></Link>
         </div>
         <div className="profileImage">
-        <img style={{width: '100%',   borderRadius: '20px'}} src={profileImage} alt=""/>
+        <img style={{height: '60vh',   borderRadius: '20px'}} src={profileImage} alt=""/>
         </div>
         </div>
       </div>
