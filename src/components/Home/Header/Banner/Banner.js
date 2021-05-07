@@ -96,14 +96,14 @@ const Banner = () => {
       <div className="bannerChild">
           
         <div className="content">
-        <div className="info text-white">
+        <div className="info text-white animate__animated animate__fadeInDown">
         <h1>Hi, I am <span style={{color: '#FFFAF0', fontWeight: '700'}}>Ashraful <br/>Islam </span> </h1>
-        <p className="typewriter"><span style={{color: 'cyan',fontSize:'2.3em', fontWeight:'700'}}>MERN Stack Developer</span></p>
+        <p style={{fontWeight: 'bold'}}><span style={{color: 'cyan',fontSize:'2.3em', fontWeight:'700'}}>Web Developer</span></p>
         <p>I am an enthusiastic Javascript Developer. I work with MERN stack. I handle both the Front-End and Back-End with significant and highly demandable frameworks.</p>
         <Link target="_blank" to={"//" + resume}><button className="btn btn-info px-3 py-2"><FontAwesomeIcon icon = { faDownload } /> Get Resume</button></Link>
         </div>
         <div className="profileImage">
-        <img style={{height: '60vh',   borderRadius: '20px'}} src={profileImage} alt=""/>
+        <img className="animate__animated animate__zoomInDown" style={{height: '50vh',   borderRadius: '20px'}} src={profileImage} alt=""/>
         </div>
         </div>
       </div>

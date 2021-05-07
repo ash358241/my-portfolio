@@ -28,7 +28,7 @@ const Contact = () => {
                  <h1 className="text-primary">Contact</h1>
                  <h3>Always Connect With Me</h3>
             </div>
-            <div className="col-md-9 mx-auto">
+            <div className="col-md-9 mx-auto animate__animated animate__fadeIn">
                 <form onSubmit={sendMail}>
                 <div className="form-group">
                         <input type="text" className="form-control" placeholder="Full Name " name='name'/>

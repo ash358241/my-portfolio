@@ -1,6 +1,7 @@
 #aboutMe{
     background-color: #232741;
     color: white;
+    overflow: hidden;
 }
 
 .skills{

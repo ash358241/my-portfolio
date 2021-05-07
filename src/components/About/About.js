@@ -20,7 +20,9 @@ const About = () => {
     return (
         <div id="aboutMe" >
             <div className="text-center w-50 mx-auto" style={{paddingTop:'100px'}}>
-            <img style={{width: '50%', borderRadius: '20px'}} src={me} alt=""/>
+            <img className="animate__animated animate__fadeInRight" style={{width: '50%', borderRadius: '20px'}} src={me} alt=""/>
+
+            <div className="animate__animated animate__fadeInLeft">
             <h1>I'm Ashraful Islam</h1>
             <p style={{width: '80%', margin: '0 auto'}}>I basically work with MERN stack. For Front-End I use React, for Back-End I use Express and as database I use MongoDB. I always focus on learning new technology. Currently I am doing my B.Sc. in CSE from Leading University, Sylhet</p>
             <div className="socialLinks">
@@ -29,6 +31,8 @@ const About = () => {
             <Link target='_blank' to={"//" + faceBook} > <FontAwesomeIcon className='m-2 icon' icon={faFacebook} size='2x'/></Link>
             <Link target='_blank' to={"//" + instaGram} > <FontAwesomeIcon className='m-2 icon' icon={faInstagram} size='2x'/></Link>
             </div>
+            </div>
+
             </div>
 
             <br/>
