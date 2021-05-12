@@ -17,8 +17,8 @@ import { Badge, Carousel } from 'react-bootstrap';
 const Portfolio = () => {
     return (
         
-        <div id="port">
-            <div className="w-100 mx-auto container" style={{paddingTop:'100px', paddingBottom:'100px'}}>
+        <div className="port">
+            <div className="w-100 mx-auto container animate__animated animate__fadeInDownBig" style={{animationDuration: '7s'}} style={{paddingTop:'100px', paddingBottom:'100px'}}>
             <div className="portfolio">
             <div className="w-100 mx-auto">
              

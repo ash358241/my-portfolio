@@ -21,7 +21,7 @@ const Footer = () => {
     return (
         <div className="text-center footer">
             <h5>Copyright © 2021 | ashraful</h5>
-            <p>Address: Moulvibazaar, Sylhet, Bangladesh</p>
+            <p>Address: Moulvibazar, Sylhet, Bangladesh</p>
             <div className="socialLinks">
             <Link target='_blank' to={"//" + linkedInURL}><FontAwesomeIcon style={{margin: '10px'}} icon = { faLinkedinIn } size='2x'/></Link>
             <Link target='_blank' to={"//" + gitHub} > <FontAwesomeIcon className='m-2 icon' icon={faGithub} size='2x'/></Link>

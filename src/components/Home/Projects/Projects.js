@@ -14,7 +14,7 @@ import './Projects.css';
 
 const Projects = () => {
     return (
-        <div className="w-100 mx-auto container text-white pt-5" style={{paddingBottom: '70px'}}>
+        <div className="w-100 mx-auto container text-white mt-5 pt-5" >
             <h1 className="text-center ">Some Projects of Mine</h1>
             <hr style={{width: '50%', margin: '0 auto', backgroundColor: 'white', height: '5px'}}/>
             <br/>

@@ -1,0 +1,99 @@
+.blogPart{
+    background-color: #232741;
+    min-height: 100vh;
+}
+
+.card-wrapper {
+    margin-bottom: 30px;
+  }
+  .card-image .cardItem .card-img-wrapper {
+    height: 100%;
+  }
+  .card-image .cardItem .card-body {
+    display: none;
+  }
+  .card-image-title-description .cardItem .card-img-wrapper {
+    max-height: 160px;
+  }
+  .card-image-title-description .cardItem {
+    position: relative;
+    min-height: 300px;
+  }
+  .card-image-title-description .cardItem .card-body {
+    height: auto;
+    position: relative;
+    top: 0;
+    margin-bottom: -70px;
+  }
+  .card-image-title-description .cardItem:hover .card-body {
+    top: -70px;
+  }
+  .card-image-title-description .cardItem .card-body .card-title {
+    margin-bottom: .75rem;
+  }
+  .cardItem {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    min-height: 400px;
+    height: 100%;
+    /* border: 3px solid cyan; */
+    transition: all .2s ease;
+  }
+  /* .cardItem:hover {
+    box-shadow: 0 0 10px white;
+  } */
+  .card-img-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    overflow: hidden;
+  }
+  .card-img-wrapper img {
+    transition: 1.5s ease;
+  }
+  .cardItem:hover .card-img-wrapper img {
+    transform: scale(1.15);
+  }
+  .card-body .card-title {
+    margin-bottom: calc(50% + 20px);
+    transition: 1.5s ease;
+  }
+  .cardItem:hover .card-body .card-title {
+    margin-bottom: .75rem;
+  }
+  
+  .card-body {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50%;
+    background-color: #fff;
+    transition: 1.5s ease;
+  }
+  .card-content {
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    transition: 1.5s ease;
+  }
+  .cardItem:hover .card-body {
+    height: 80%;
+  }
+  .cardItem:hover .card-content {
+    bottom: 0;
+  }
+
+  @media (max-width: 668px){
+    .card-img-wrapper {
+        
+        height: 70%;
+        /* overflow: hidden; */
+      }
+  }
+
+ 
