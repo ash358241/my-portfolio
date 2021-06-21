@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faDownload} from '@fortawesome/free-solid-svg-icons';
 
-const resume = "drive.google.com/file/d/1FmMTnd23sg34II8LAJuNaUMWI-hBg6_G/view";
+const resume = "drive.google.com/file/d/1riwe9trzND3rsfXuqT2bXV0STovPGNKu/view?usp=sharing";
 
 const Banner = () => {
     return (
