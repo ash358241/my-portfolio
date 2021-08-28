@@ -46,8 +46,7 @@ const About = () => {
                         <Badge variant="info m-2">Javascript</Badge>
                         <Badge variant="info m-2">ES6</Badge>
                         <Badge variant="info m-2">React.js</Badge>
-                        <Badge variant="info m-2">React Router</Badge>
-                        <Badge variant="info m-2">Bootstrap5</Badge>
+                        <Badge variant="info m-2">React Bootstrap</Badge>
                         <Badge variant="info m-2">Node.js</Badge>
                         <Badge variant="info m-2">Express.js</Badge>
                         <Badge variant="info m-2">MongoDB</Badge>
@@ -55,17 +54,20 @@ const About = () => {
                         <Badge variant="info m-2">CSS3</Badge>
                         <Badge variant="info m-2">C</Badge>
                         <Badge variant="info  m-2">C++</Badge>
+                        <Badge variant="info m-2">Java</Badge>
+                        <Badge variant="info m-2">MaterialUI</Badge>
+                        <Badge variant="info m-2">Framer Motion</Badge>
+                        <Badge variant="info m-2">Sass</Badge>
 
                         <h4 className='mt-5 mb-3 orelega-font'>Familiar</h4>
                         <Badge variant="info  m-2">Typescript</Badge>
-                        <Badge variant="info  m-2">Sass</Badge>
                         <Badge variant="info  m-2">Redux</Badge>
                         <Badge variant="info  m-2">React Native</Badge>
+                        <Badge variant="info m-2">Tailwind CSS</Badge>
                         <Badge variant="info  m-2">Python</Badge>
 
                         <h4 className='mt-5 mb-3 orelega-font'>Tools</h4>
                         <Badge variant="info  m-2">Git</Badge>
-                        <Badge variant="info  m-2">Windows</Badge>
                         <Badge variant="info  m-2">VS Code</Badge>
                         <Badge variant="info  m-2">Chrome Dev Tool</Badge>
                         <Badge variant="info  m-2">Heroku</Badge>
